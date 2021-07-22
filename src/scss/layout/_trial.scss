@@ -1,31 +1,24 @@
 .trial {
   min-height: 70vh;
   margin-top: 60px;
-  padding: 40px var(--padding-horiz-content);
-  background-color: var(--background-blue);
-  color: var(--text-white);
-  /*
-      background-image: url("../img/premium_dancer.png");
-      background-position: right;
-      background-repeat: no-repeat;
-      */
+  padding: $padding-horiz-content;
+  background-color: $background-blue;
+  color: $text-white;
 }
-
-.trial .title {
-  margin-top: calc(var(--fontsize-title-big) * 2);
-  font-size: var(--fontsize-title-big);
+.subtitle {
+  margin-top: $fontsize-title-medium;
+  font-size: $fontsize-title-small;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+.title {
+  margin-top: calc($fontsize-title-big * 2);
+  font-size: $fontsize-title-big;
   font-weight: bold;
   line-height: 1.5em;
 }
 
-.trial .subtitle {
-  margin-top: var(--fontsize-title-medium);
-  font-size: var(--fontsize-title-smail);
-  font-weight: bold;
-  line-height: 1.5em;
-}
-
-.trial .link {
+.link {
   display: block;
   height: 40px;
   line-height: 40px;
@@ -38,7 +31,6 @@
   text-transform: uppercase;
   font-weight: bold;
 }
-
-.trial .disclaimer {
+.disclaimer {
   font-size: $fontsize-title-small;
 }
