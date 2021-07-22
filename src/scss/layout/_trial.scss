@@ -1,0 +1,44 @@
+.trial {
+  min-height: 70vh;
+  margin-top: 60px;
+  padding: 40px var(--padding-horiz-content);
+  background-color: var(--background-blue);
+  color: var(--text-white);
+  /*
+      background-image: url("../img/premium_dancer.png");
+      background-position: right;
+      background-repeat: no-repeat;
+      */
+}
+
+.trial .title {
+  margin-top: calc(var(--fontsize-title-big) * 2);
+  font-size: var(--fontsize-title-big);
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.trial .subtitle {
+  margin-top: var(--fontsize-title-medium);
+  font-size: var(--fontsize-title-smail);
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.trial .link {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px auto;
+  background-color: $background-green;
+  border-radius: 15px;
+  color: $text-white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.trial .disclaimer {
+  font-size: $fontsize-title-small;
+}
