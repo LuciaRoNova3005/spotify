@@ -3,3 +3,23 @@
   justify-content: space-evenly;
   margin-bottom: 3rem;
 }
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: $background-black;
+  padding: $padding-horiz-header;
+}
+
+.header .logo {
+  height: 35px;
+}
+
+.header .menu-icon {
+  width: 25px;
+  height: 25px;
+  background-image: url("../assets/images/menu-icon.png");
+  background-size: contain;
+}
