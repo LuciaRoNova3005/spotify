@@ -5,15 +5,17 @@
   background-color: $background-blue;
   color: $text-white;
 }
-.subtitle {
-  margin-top: $fontsize-title-medium;
-  font-size: $fontsize-title-small;
-  font-weight: bold;
-  line-height: 1.5em;
-}
+
 .title {
   margin-top: calc($fontsize-title-big * 2);
   font-size: $fontsize-title-big;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.subtitle {
+  margin-top: $fontsize-title-medium;
+  font-size: $fontsize-title-small;
   font-weight: bold;
   line-height: 1.5em;
 }
@@ -31,6 +33,7 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .disclaimer {
-  font-size: $fontsize-title-small;
+  font-size: $fontsize-small;
 }
