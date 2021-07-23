@@ -6,3 +6,41 @@
   padding: 1rem;
   color: $color-secondary;
 }
+.footer {
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background-black;
+  color: $text-white;
+  font-size: $fontsize-small;
+}
+
+.footer .menu .menulist {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+}
+
+.footer .menu .menuitem {
+  padding: 0 5px;
+}
+
+.footer .menu .menulink {
+  color: $text-white;
+  text-decoration: none;
+}
+
+.footer .lang {
+  line-height: 18px;
+}
+
+.footer .lang .flag {
+  display: inline-block;
+  background-image: url("./images/es.svg");
+  background-size: contain;
+  width: 25px;
+  height: 18px;
+  vertical-align: middle;
+}
