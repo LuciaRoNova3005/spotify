@@ -1,35 +1,39 @@
 .benefits {
-  padding: 40px, 20px, 80px;
+  padding: 40px, 80px, 80px, 40px;
+  padding-bottom: 80px;
 }
 
-.title {
+.benefits .title {
   margin-top: $fontsize-title-medium;
   font-size: $fontsize-title-medium;
   font-weight: bold;
   line-height: 1.5em;
   text-align: center;
+  font-size: 40px;
 }
-.reason-container {
+
+.benefits .reason-container {
   display: flex;
   flex-direction: column;
 }
 
-.reason {
+.benefits .reason {
   display: flex;
 }
 
-.image {
+.benefits .reason .image {
   width: 150px;
   height: 150px;
   margin-right: $padding-horiz-content;
 }
 
-.title {
-  font-size: 24px;
+.benefits .reason .title {
   font-weight: bold;
   text-align: left;
+  font-size: 36px;
 }
 
-.text {
+.benefits .reason .text {
   margin-top: 12px;
+  font-size: 20px;
 }

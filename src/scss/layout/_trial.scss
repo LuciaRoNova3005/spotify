@@ -1,12 +1,16 @@
 .trial {
   min-height: 70vh;
   margin-top: 60px;
-  padding: 80px;
+  padding: 40px;
+  padding-top: 220px;
   background-color: $background-blue;
   color: $text-white;
+  background-image: url("../images/premium_dancer.png");
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
-.title {
+.title1 {
   margin-top: calc($fontsize-title-big * 2);
   font-size: $fontsize-title-big;
   font-weight: bold;
