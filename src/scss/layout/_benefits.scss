@@ -37,3 +37,27 @@
   margin-top: 12px;
   font-size: 20px;
 }
+
+@media (min-width: 768px) {
+  .benefits .reason-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .reason {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reason {
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefits .reason .title,
+  .benefits .reason .text {
+    text-align: center;
+  }
+}
