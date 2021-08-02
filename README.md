@@ -1,7 +1,7 @@
-# spotify
+# SPOTIFY
 Este proyecto consite en la creación de una página y en su adecuación para los distintos dispositovos tablet y mobile.
 
-Este proyecto incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más, esto nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+Este proyecto incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más.
 
 # # Hay 3 tipos de ficheros y carpetas:
 
@@ -67,7 +67,7 @@ o
 npm run deploy
 ```
 
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón.
+Son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` 
 
 ## Flujo de archivos con Gulp
 
