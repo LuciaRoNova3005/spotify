@@ -1,4 +1,5 @@
 # SPOTIFY
+Ejercicio hecho durante el bootcamp, propuesto como ejercicio extra.
 Este proyecto consite en la creación de una página y en su adecuación para los distintos dispositovos tablet y mobile.
 
 Este proyecto incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más.
